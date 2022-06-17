@@ -1,0 +1,27 @@
+{
+  "name": "paper-folder",
+  "version": "1.0.0",
+  "description": "calculate thickness based on folds and paper type",
+  "main": "dist/index.js",
+  "browserslist": "> 0.5%, last 2 versions, not dead",
+  "source": "src/index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "parcel",
+    "build": "parcel build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jsahlsa/paper-folder.git"
+  },
+  "author": "Joe Sahlstrom",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jsahlsa/paper-folder/issues"
+  },
+  "homepage": "https://github.com/jsahlsa/paper-folder#readme",
+  "devDependencies": {
+    "parcel": "^2.6.1",
+    "prettier": "^2.7.1"
+  }
+}
